@@ -5,7 +5,6 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     background: #999999;
-    }
 }
 .navigation{
     margin: 0;
@@ -28,7 +27,11 @@ h2{
     font-size: 2.5em;
 }
 p{
+    padding: 1em;
+    width: 75%;
     font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Nav links */
 ul{
