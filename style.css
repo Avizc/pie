@@ -4,6 +4,8 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    background: #999999;
+    }
 }
 .navigation{
     margin: 0;
@@ -28,33 +30,6 @@ h2{
 p{
     font-size: 1.5em;
 }
-.about-me{
-    background: #18C2F0;
-}
-.project-1{
-    background: #18F0B2;
-}
-.project-2{
-    background: #f58060;
-}
-.project-3{
-    background: #18C2F0;
-}
-.project-4{
-    background: #18F0B2;
-}
-.project-5{
-    background: #f58060;
-}
-.project-5{
-    background: #18C2F0;
-}
-.project-6{
-    background: #18F0B2;
-}
-.project-7{
-    background: #f58060;
-}
 /* Nav links */
 ul{
     float: left;
@@ -65,39 +40,14 @@ ul{
 li{
     float: left;
     margin: 0;
-    /* margin-top: 0;
-    margin-left: -20px;
-    margin-right: 0;
-    margin-bottom: 0; */
     width: 300px;
     text-align: center;
     padding: 1em;
     font-size: 2em;
 }
+li:hover {
+    background-color: #666666;
+}
 .nav-button{
     height: 12.5vh;
-}
-.nav-about{
-    background: #FF00FF;
-}
-.nav-project-1{
-    background: #FFFF00;
-}
-.nav-project-2{
-    background: #00ffff;
-}
-.nav-project-3{
-    background: #FF00FF;
-}
-.nav-project-4{
-    background: #FFFF00;
-}
-.nav-project-5{
-    background: #00ffff;    
-}
-.nav-project-6{
-    background: #FF00FF;
-}
-.nav-project-7{
-    background: #FFFF00;
 }
