@@ -34,10 +34,14 @@
 
         <!-- Cute fonts? Yes please! -->
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Source+Sans+Pro:300,400,600" rel="stylesheet">
+
+        <!-- Style sheets -->
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body class="row">
         <nav class="col-3" id="navigation">
-            <ul class="nav-buttons">
+            <ul class="nav-options">
                 <li class="nav-about">About Me</li>
                 <li class="nav-project-1">Project 1</li>
                 <li class="nav-project-2">Project 2</li>
@@ -46,8 +50,8 @@
         <main class="col-9">
             <!-- This is where all the sections will go -->
             <section class="about-me" id="about-me"></section>
-            <section class="project-1" id="project-1"></section>
-            <section class="project-2" id="project-2"></section>
+            <section class="project-1 hidden" id="project-1"></section>
+            <section class="project-2 hidden" id="project-2"></section>
         </main>
         <!-- I like to add my scripts at the end, it's highly debatable so your own choice there -->
         <script src="https://code.jquery.com/jquery.min.js"></script>
