@@ -4,17 +4,87 @@ $(function() {
             $('.about-me').removeClass('hidden');
             $('.project-1').addClass('hidden');
             $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
         });
         $('.nav-project-1').on('click',function(event){
             event.preventDefault();
             $('.project-1').removeClass('hidden');
             $('.about-me').addClass('hidden');
             $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
         });
         $('.nav-project-2').on('click',function(event){
             event.preventDefault();
             $('.project-2').removeClass('hidden');
             $('.about-me').addClass('hidden');
             $('.project-1').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
+        });
+        $('.nav-project-3').on('click',function(event){
+            event.preventDefault();
+            $('.project-3').removeClass('hidden');
+            $('.about-me').addClass('hidden');
+            $('.project-1').addClass('hidden');
+            $('.project-2').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
+        });
+        $('.nav-project-4').on('click',function(event){
+            event.preventDefault();
+            $('.project-4').removeClass('hidden');
+            $('.about-me').addClass('hidden');
+            $('.project-1').addClass('hidden');
+            $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
+        });
+        $('.nav-project-5').on('click',function(event){
+            event.preventDefault();
+            $('.project-5').removeClass('hidden');
+            $('.about-me').addClass('hidden');
+            $('.project-1').addClass('hidden');
+            $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-6').addClass('hidden');
+            $('.project-7').addClass('hidden');
+        });
+        $('.nav-project-6').on('click',function(event){
+            event.preventDefault();
+            $('.project-6').removeClass('hidden');
+            $('.about-me').addClass('hidden');
+            $('.project-1').addClass('hidden');
+            $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-7').addClass('hidden');
+        });
+        $('.nav-project-7').on('click',function(event){
+            event.preventDefault();
+            $('.project-7').removeClass('hidden');
+            $('.about-me').addClass('hidden');
+            $('.project-1').addClass('hidden');
+            $('.project-2').addClass('hidden');
+            $('.project-3').addClass('hidden');
+            $('.project-4').addClass('hidden');
+            $('.project-5').addClass('hidden');
+            $('.project-6').addClass('hidden');
         });
     });
