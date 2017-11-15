@@ -17,8 +17,10 @@
 /* Dividing the site into quarters, halves, and further! */
 .col-3,.col-6,.col-9,.col-12{
     float: left;
-    padding-left: 1.04166666%;
-    padding-right: 1.04166666%;
+    margin: 0;
+    padding: 0;
+    /* padding-left: 1.04166666%;
+    padding-right: 1.04166666%; */
 }
 /* This should be fixed later but if the screen is smaller than 640px it'll default to making every column 100% wide */
 .col-3,.col-6,.col-9,.col-12{
